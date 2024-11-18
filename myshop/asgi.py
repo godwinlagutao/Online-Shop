@@ -14,3 +14,8 @@ from django.core.asgi import get_asgi_application
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myshop.settings')
 
 application = get_asgi_application()
+
+# git init
+# git add .
+# git commit -m "commit message here"
+# sd5Ai5GZ^4L+U+n -stripe

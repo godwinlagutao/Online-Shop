@@ -44,7 +44,13 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
 ]
+
+# Stripe settings 
+STRIPE_PUBLISHABLE_KEY = 'pk_test_51Q6Xq9KBm9KxIE9LnGykR3gY5pInPStuW3dlZHaclZtsxUrrDXmp0y1TlP9Z42ZabMjTBRiTkuRTSWNWSzs8SnkY00Q3jdw5Fo'
+STRIPE_SECRET_KEY = 'sk_test_51Q6Xq9KBm9KxIE9LnQW7NtWqYDxFXSRq5fdgnnce5pXJvHJyxvHB8nSpyFWbmGkvzYfX7beJFmzfWzAtKASX6xGc00l98qjSEb'
+STRIPE_API_VERSION = '2022-08-01'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
