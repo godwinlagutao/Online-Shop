@@ -64,6 +64,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'myshop.urls'
 
+STRIPE_WEBHOOK_SECRET = "whsec_301d5b7b22ed860f7c5e22312b6891d63458948ef359f2bda7c6dc3df5ca7fc0"
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
